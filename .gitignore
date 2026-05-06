@@ -1,0 +1,28 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Variables de entorno (NUNCA subir al repositorio)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos del agente
+.agents/
+
+# Alembic (solo ignorar si tienes versiones generadas localmente)
+# alembic/versions/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
